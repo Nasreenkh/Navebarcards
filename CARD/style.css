@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #1317e2;
+    overflow: hidden;
+    box-shadow: 5px 2px 5px rgba(70, 13, 228, 0.2);
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px; 
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 14px 20px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #ddd;
+    color: rgb(117, 24, 24);
+}
+
+/* Submit button styles */
+form {
+    display: inline;
+    margin-left: auto;
+    padding: 14px 20px;
+}
+
+.Submit_Button {
+    background-color: #16070f;
+    border: solid;
+    color: rgb(235, 226, 226);
+    border-radius: 25px; 
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.Submit_Button:hover {
+    background-color: rgb(122, 47, 47);
+}
+
+
+/* Card container styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Individual card styles */
+.card {
+    background-color: rgb(252, 243, 243);
+    border: 1px solid #e2dbdb;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
